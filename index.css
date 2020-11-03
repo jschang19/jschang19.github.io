@@ -161,7 +161,7 @@ header table {
     box-shadow:0px 10px 30px rgba(21, 144, 254,0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(21, 144, 254);
+    background:rgb(255, 44, 90);
 }
 #rightImage {
     width:50%;
@@ -178,16 +178,16 @@ header table {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:50%;
+    width:6%;
 }
 
 #abi {
     width:92vw;
-    padding:10vh 6vw;
+    padding:6vh 4vw;
     font-weight:bold;
 }
 #abi h1 {
-    padding:20px 0px;
+    padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
     width:8%;
 }
@@ -200,7 +200,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:20%;
+    width:8%;
 }
 #contact {
     width:92vw;
