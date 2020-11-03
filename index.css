@@ -178,7 +178,7 @@ header table {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:6%;
+    width:20%;
 }
 
 #abi {
@@ -189,7 +189,7 @@ header table {
 #abi h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:8%;
+    width:20%;
 }
 
 #bio {
@@ -200,7 +200,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:8%;
+    width:20%;
 }
 #contact {
     width:92vw;
