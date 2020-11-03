@@ -82,6 +82,7 @@ header table {
 }
 #logo {
     font-size:24px;
+    background-color: white;
     color:rgb(24, 82, 190);
 }
 #navigation {
