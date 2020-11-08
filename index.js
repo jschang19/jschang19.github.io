@@ -53,7 +53,7 @@ setTimeout(function(){
 
 $(function() {
     $('#gotop').click(function(){
-        $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+        $('html,body').animate({ scrollTop: 0 }, 'slow'); 
         return false;
     });
     $(window).scroll(function() {
