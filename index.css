@@ -127,6 +127,11 @@ header table {
     width:20% !important;
     text-align:left;
 }
+#description {
+    font-size:14px;
+    background-color: white;
+    color:rgb(128, 128, 128);
+}
 .social {
     color:rgb(21, 144, 254);
     font-size:23px;
@@ -188,7 +193,7 @@ header table {
 #abi h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:10%;
+    width:8%;
 }
 
 #bio {
