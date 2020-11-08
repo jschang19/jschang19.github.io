@@ -183,7 +183,7 @@ header table {
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:8%;
+    width:85px;
 }
 
 #skill {
@@ -194,7 +194,7 @@ header table {
 #skill h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
-    width:8%;
+    width: 85px;
 }
 #bio {
     width:92vw;
