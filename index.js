@@ -1,4 +1,4 @@
-var width = $(window).width(); 
+var width = $(window).width();
 window.onscroll = function(){
 if ((width >= 1000)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -50,6 +50,23 @@ setTimeout(function(){
       $("#loading").css("display","none");
     },800);
 },1650);
+
+$(function() {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+        return false;
+    });
+    
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 400){
+            $('#gotop').fadeIn();
+        } else {
+            $('#gotop').fadeOut();
+        }
+    });
+});
 
 $(document).ready(function(){
     $("a").on('click', function(event) {
