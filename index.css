@@ -185,17 +185,16 @@ header table {
     width:8%;
 }
 
-#abi {
+#skill {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#abi h1 {
+#skill h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(20, 144, 254);
     width:8%;
 }
-
 #bio {
     width:92vw;
     padding:6vh 4vw;
