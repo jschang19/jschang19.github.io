@@ -117,6 +117,7 @@ header table {
 }
 #about h1 {
     font-size:45px;
+    margin-bottom:0;padding-bottom:0
     word-wrap:break-word;
 }
 #about table {
