@@ -60,10 +60,10 @@ $(function() {
     
     /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 150){
+        if ( $(this).scrollTop() > 1000){
             $('#gotop').fadeIn(1000);
         } else {
-            $('#gotop').fadeOut(1000);
+            $('#gotop').fadeOut(500);
         }
     });
 });
