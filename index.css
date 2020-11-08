@@ -168,6 +168,9 @@ header table {
     color:#fff;
     background:rgba(21, 144, 254);
 }
+.line{
+    line-height: 28px;
+}
 #rightImage {
     width:50%;
     height:60vh;
