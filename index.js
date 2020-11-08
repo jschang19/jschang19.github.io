@@ -61,9 +61,9 @@ $(function() {
     /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
     $(window).scroll(function() {
         if ( $(this).scrollTop() > 150){
-            $('#gotop').fadeIn(222);
+            $('#gotop').fadeIn(1000);
         } else {
-            $('#gotop').fadeOut(222);
+            $('#gotop').fadeOut(1000);
         }
     });
 });
