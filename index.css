@@ -54,10 +54,6 @@ a:visited {
     color: gray;
     text-decoration:none;
 }
-a:hover {
-    color: #003366;
-    text-decoration:underline;
-}
 a:active {
     color: #1590fe;
     text-decoration:underline;
