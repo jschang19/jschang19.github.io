@@ -224,12 +224,10 @@ a:active {
 
     margin: 15px 0;
     padding-right:10%;
-
 }
-
 .bio_content{
     line-height: 28px;
-    padding-right:10%;
+    max-width: 70%;
 }
 #rightImage {
     width:50%;
