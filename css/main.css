@@ -1261,7 +1261,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2aff36;
+  background: #e7ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2055,7 +2055,7 @@ pre .javascript .function {
 }
 .post-copyright {
   background: var(--card-bg-color);
-  border-left: 3px solid #ff2a2a;
+  border-left: 3px solid #1590fe;
   list-style: none;
   margin: 2em 0 0;
   padding: 0.5em 1em;
