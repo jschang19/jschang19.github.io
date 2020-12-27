@@ -6,7 +6,7 @@
   <link href="http://jschang19.github.io/atom.xml" rel="self"/>
   
   <link href="http://jschang19.github.io/"/>
-  <updated>2020-12-27T03:15:23.460Z</updated>
+  <updated>2020-12-27T04:17:37.416Z</updated>
   <id>http://jschang19.github.io/</id>
   
   <author>
@@ -17,24 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>kkk</title>
-    <link href="http://jschang19.github.io/posts/799/"/>
-    <id>http://jschang19.github.io/posts/799/</id>
-    <published>2020-12-27T03:15:23.000Z</published>
-    <updated>2020-12-27T03:15:23.460Z</updated>
+    <title>Mac 資料庫的 Update 是什麼？可以刪掉嗎？</title>
+    <link href="http://jschang19.github.io/posts/58008/"/>
+    <id>http://jschang19.github.io/posts/58008/</id>
+    <published>2020-12-26T16:21:00.000Z</published>
+    <updated>2020-12-27T04:17:37.416Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;sss&lt;/p&gt;
-</summary>
-        
-      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/pasted-5.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;很多 Mac 用戶常在問「 電腦資料庫的 Upadate 吃了好多容量，能不能刪除？」這篇告訴你 MacOS Upadte 資料夾是什麼，以及正確的移除方式，幫你清理出儲存空間 😆&lt;/p&gt;</summary>
     
     
     
+    <category term="Mac教學" scheme="http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/"/>
+    
+    <category term="教學" scheme="http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/%E6%95%99%E5%AD%B8/"/>
+    
+    
+    <category term="Mac教學" scheme="http://jschang19.github.io/tags/Mac%E6%95%99%E5%AD%B8/"/>
+    
+    <category term="電腦" scheme="http://jschang19.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="蘋果" scheme="http://jschang19.github.io/tags/%E8%98%8B%E6%9E%9C/"/>
+    
+    <category term="Update資料夾" scheme="http://jschang19.github.io/tags/Update%E8%B3%87%E6%96%99%E5%A4%BE/"/>
+    
+    <category term="儲存空間不夠" scheme="http://jschang19.github.io/tags/%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93%E4%B8%8D%E5%A4%A0/"/>
     
   </entry>
   

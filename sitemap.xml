@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jschang19.github.io/posts/799/</loc>
+    <loc>http://jschang19.github.io/posts/58008/</loc>
     
     <lastmod>2020-12-27</lastmod>
     
@@ -52,6 +52,55 @@
   </url>
 
   
+  <url>
+    <loc>http://jschang19.github.io/tags/Mac%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jschang19.github.io/tags/%E9%9B%BB%E8%85%A6/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jschang19.github.io/tags/%E8%98%8B%E6%9E%9C/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jschang19.github.io/tags/Update%E8%B3%87%E6%96%99%E5%A4%BE/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jschang19.github.io/tags/%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93%E4%B8%8D%E5%A4%A0/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
