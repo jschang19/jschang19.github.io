@@ -20,7 +20,7 @@
     <title>Mac 資料庫的 Update 是什麼？可以刪掉嗎？</title>
     <url>/posts/58008/</url>
     <content><![CDATA[<p><img src="/images/pasted-5.png" alt="upload successful"></p>
-<p>很多 Mac 用戶常在問「 電腦資料庫的 Upadate 吃了好多容量，能不能刪除？」這篇告訴你 MacOS Upadte 資料夾是什麼，以及正確的移除方式，幫你清理出儲存空間 😆</p>
+<p>很多 Mac 用戶在清理硬碟空間時，會發現 Library 電腦資料庫的 Upadate 吃了好多容量，這資料能不能刪除？這篇告訴你 MacOS Upadte 資料夾是什麼，以及正確的移除方式，幫你清理出儲存空間 😆</p>
 <a id="more"></a>
 
 <h4 id="Mac-的-Update-資料夾是什麼？"><a href="#Mac-的-Update-資料夾是什麼？" class="headerlink" title="Mac 的 Update 資料夾是什麼？"></a>Mac 的 Update 資料夾是什麼？</h4><p>資料庫裡的 Update 是來_存放 MacOS 的更新檔案_，因此會佔不少空間，動輒就吃掉硬碟好幾 GB。裡面的更新檔是可以移除的，但有些特定檔案要留下來，否則會影響系統運作喔。</p>
