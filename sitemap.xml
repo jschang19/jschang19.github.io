@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jschang19.github.io/posts/17780/</loc>
+    <loc>http://jschang19.github.io/about/index.html</loc>
     
     <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>http://jschang19.github.io/about/index.html</loc>
+    <loc>http://jschang19.github.io/posts/17780/</loc>
     
     <lastmod>2020-12-26</lastmod>
     
@@ -39,7 +39,7 @@
 
   <url>
     <loc>http://jschang19.github.io/</loc>
-    <lastmod>2020-12-26</lastmod>
+    <lastmod>2020-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
