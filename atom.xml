@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>工常張 Shawn</title>
+  
+  <subtitle>科技 / iOS / 高中生</subtitle>
+  <link href="http://jschang19.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://jschang19.github.io/"/>
+  <updated>2020-12-27T03:15:23.460Z</updated>
+  <id>http://jschang19.github.io/</id>
+  
+  <author>
+    <name>Jun Shawn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kkk</title>
+    <link href="http://jschang19.github.io/posts/799/"/>
+    <id>http://jschang19.github.io/posts/799/</id>
+    <published>2020-12-27T03:15:23.000Z</published>
+    <updated>2020-12-27T03:15:23.460Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;sss&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello!</title>
+    <link href="http://jschang19.github.io/posts/17780/"/>
+    <id>http://jschang19.github.io/posts/17780/</id>
+    <published>2020-12-26T15:16:10.000Z</published>
+    <updated>2020-12-26T15:16:10.664Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
