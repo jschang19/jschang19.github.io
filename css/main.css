@@ -226,7 +226,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 16px;
+  font-size: 16.5px;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -330,7 +330,7 @@ kbd {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 0.875em;
+  font-size: 15.5px;
   margin: 0 0 20px 0;
   width: 100%;
 }
@@ -365,7 +365,7 @@ td {
   border-radius: 2px;
   color: var(--btn-default-color);
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 15.5px;
   line-height: 2;
   padding: 0 20px;
   text-decoration: none;
@@ -515,7 +515,7 @@ code {
   background: #1b1b1b;
   color: #ccc;
   display: flex;
-  font-size: 0.875em;
+  font-size: 15.5px;
   justify-content: space-between;
   line-height: 1.2;
   padding: 0.5em;
@@ -557,7 +557,7 @@ pre {
 pre code {
   background: none;
   color: #ccc;
-  font-size: 0.875em;
+  font-size: 15.5px;
   padding: 0;
   text-shadow: none;
 }
@@ -1085,7 +1085,7 @@ pre .javascript .function {
 }
 .site-subtitle {
   color: #ddd;
-  font-size: 0.8125em;
+  font-size: 15px;
   margin: 10px 0;
 }
 .use-motion .brand {
@@ -1156,7 +1156,7 @@ pre .javascript .function {
 .menu-item span.exturl {
   border-bottom: 0;
   display: block;
-  font-size: 0.8125em;
+  font-size: 15px;
   transition-property: border-color;
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -1250,7 +1250,7 @@ pre .javascript .function {
 }
 .site-description {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 15px;
   margin-top: 0;
   text-align: center;
 }
@@ -1261,14 +1261,14 @@ pre .javascript .function {
 .links-of-author span.exturl {
   border-bottom-color: #555;
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 15px;
   margin-bottom: 10px;
   margin-right: 10px;
   vertical-align: middle;
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9e20ff;
+  background: #612865;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1305,11 +1305,11 @@ pre .javascript .function {
   color: #fff;
 }
 .links-of-blogroll {
-  font-size: 0.8125em;
+  font-size: 15px;
   margin-top: 10px;
 }
 .links-of-blogroll-title {
-  font-size: 0.875em;
+  font-size: 15.5px;
   font-weight: 600;
   margin-top: 0;
 }
@@ -1349,7 +1349,7 @@ pre .javascript .function {
   color: var(--text-color);
   cursor: pointer;
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 15.5px;
 }
 .sidebar-nav li.sidebar-nav-overview {
   margin-left: 10px;
@@ -1394,7 +1394,7 @@ pre .javascript .function {
   background: #fc6423;
 }
 .post-toc {
-  font-size: 0.875em;
+  font-size: 15.5px;
 }
 .post-toc ol {
   list-style: none;
@@ -1459,17 +1459,17 @@ pre .javascript .function {
 }
 .site-state-item-count {
   display: block;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
 }
 .site-state-item-name {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 15px;
 }
 .footer {
   color: #999;
-  font-size: 0.875em;
+  font-size: 15.5px;
   padding: 20px 0;
 }
 .footer.footer-fixed {
@@ -1496,7 +1496,7 @@ pre .javascript .function {
 }
 .languages {
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 22px;
   position: relative;
 }
 .languages .lang-select-label span {
@@ -1617,17 +1617,17 @@ pre .javascript .function {
 }
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.125em;
+    font-size: 22px;
   }
 }
 .post-body .exturl .fa {
-  font-size: 0.875em;
+  font-size: 15.5px;
   margin-left: 4px;
 }
 .post-body .image-caption,
 .post-body .figure .caption {
   color: #999;
-  font-size: 0.875em;
+  font-size: 15.5px;
   font-weight: bold;
   line-height: 1;
   margin: -20px auto 15px;
@@ -1669,7 +1669,7 @@ pre .javascript .function {
   }
 }
 .posts-collapse .collection-title {
-  font-size: 1.125em;
+  font-size: 22px;
   position: relative;
 }
 .posts-collapse .collection-title::before {
@@ -1686,7 +1686,7 @@ pre .javascript .function {
   width: 10px;
 }
 .posts-collapse .collection-year {
-  font-size: 1.5em;
+  font-size: 23px;
   font-weight: bold;
   margin: 60px 0;
   position: relative;
@@ -1730,7 +1730,7 @@ pre .javascript .function {
   left: 0;
   margin-left: -4px;
   position: absolute;
-  top: 13px;
+  top: 14px;
   transition-property: background;
   width: 6px;
   transition-delay: 0s;
@@ -1745,7 +1745,7 @@ pre .javascript .function {
 }
 .posts-collapse .post-meta {
   display: inline;
-  font-size: 13px;
+  font-size: 14px;
   margin-right: 10px;
 }
 .posts-collapse .post-title {
@@ -1757,7 +1757,7 @@ pre .javascript .function {
   color: var(--link-color);
 }
 .posts-collapse .post-title .fa-external-link-alt {
-  font-size: 0.875em;
+  font-size: 15.5px;
   margin-left: 5px;
 }
 .posts-collapse::before {
@@ -1871,10 +1871,10 @@ pre .javascript .function {
   margin: 0;
 }
 .posts-expand .post-header {
-  font-size: 1.125em;
+  font-size: 22px;
 }
 .posts-expand .post-title {
-  font-size: 1.5em;
+  font-size: 23px;
   font-weight: normal;
   margin: initial;
   text-align: center;
@@ -1907,18 +1907,18 @@ pre .javascript .function {
   visibility: visible;
 }
 .posts-expand .post-title-link .fa-external-link-alt {
-  font-size: 0.875em;
+  font-size: 15.5px;
   margin-left: 5px;
 }
 .posts-expand .post-meta {
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   margin: 3px 0 60px 0;
   text-align: center;
 }
 .posts-expand .post-meta .post-description {
-  font-size: 0.875em;
+  font-size: 15.5px;
   margin-top: 2px;
 }
 .posts-expand .post-meta time {
@@ -1958,7 +1958,7 @@ pre .javascript .function {
 .post-nav-item a {
   border-bottom: none;
   display: block;
-  font-size: 0.875em;
+  font-size: 15.5px;
   line-height: 1.6;
   position: relative;
 }
@@ -1966,7 +1966,7 @@ pre .javascript .function {
   top: 2px;
 }
 .post-nav-item .fa {
-  font-size: 13px;
+  font-size: 14px;
 }
 .post-nav-item:first-child {
   margin-right: 15px;
@@ -2004,7 +2004,7 @@ pre .javascript .function {
 }
 .post-tags a {
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 15px;
 }
 .post-tags a:not(:last-child) {
   margin-right: 10px;
@@ -2023,7 +2023,7 @@ pre .javascript .function {
 }
 .social-like {
   display: flex;
-  font-size: 0.875em;
+  font-size: 15.5px;
   justify-content: center;
   text-align: center;
 }
@@ -2223,7 +2223,7 @@ pre .javascript .function {
   }
 }
 ul.breadcrumb {
-  font-size: 13px;
+  font-size: 14px;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
