@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jschang19.github.io/posts/58008/</loc>
+    
+    <lastmod>2021-01-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jschang19.github.io/posts/678/</loc>
     
     <lastmod>2021-01-03</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://jschang19.github.io/tags/index.html</loc>
     
     <lastmod>2020-12-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jschang19.github.io/posts/58008/</loc>
-    
-    <lastmod>2020-12-27</lastmod>
     
   </url>
   
@@ -118,13 +118,6 @@
 
   
   <url>
-    <loc>http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jschang19.github.io/categories/Office-%E6%95%99%E5%AD%B8/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -132,14 +125,14 @@
   </url>
   
   <url>
-    <loc>http://jschang19.github.io/categories/Mac%E6%95%99%E5%AD%B8/%E6%95%99%E5%AD%B8/</loc>
+    <loc>http://jschang19.github.io/categories/Office-%E6%95%99%E5%AD%B8/Excel/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://jschang19.github.io/categories/Office-%E6%95%99%E5%AD%B8/Excel/</loc>
+    <loc>http://jschang19.github.io/categories/Apple%E6%95%99%E5%AD%B8/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
