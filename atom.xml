@@ -6,7 +6,7 @@
   <link href="http://jschang19.github.io/atom.xml" rel="self"/>
   
   <link href="http://jschang19.github.io/"/>
-  <updated>2020-12-27T14:03:15.166Z</updated>
+  <updated>2021-01-03T10:43:58.838Z</updated>
   <id>http://jschang19.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線</title>
+    <link href="http://jschang19.github.io/posts/678/"/>
+    <id>http://jschang19.github.io/posts/678/</id>
+    <published>2021-01-03T04:51:00.000Z</published>
+    <updated>2021-01-03T10:43:58.838Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/pasted-33.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前陣子做了物理第二次實驗，這次老師要求將 Phyphox 的數據以 Excel 整理圖表並加入迴歸線，就來把上網搜尋的教學步驟整理到這篇，教大家怎麼把數據整理成散布圖表，並加入趨勢線。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Office 教學" scheme="http://jschang19.github.io/categories/Office-%E6%95%99%E5%AD%B8/"/>
+    
+    <category term="Excel" scheme="http://jschang19.github.io/categories/Office-%E6%95%99%E5%AD%B8/Excel/"/>
+    
+    
+    <category term="Excel" scheme="http://jschang19.github.io/tags/Excel/"/>
+    
+    <category term="Phyphox" scheme="http://jschang19.github.io/tags/Phyphox/"/>
+    
+    <category term="Office" scheme="http://jschang19.github.io/tags/Office/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac 資料庫的 Update 是什麼？可以刪掉嗎？</title>

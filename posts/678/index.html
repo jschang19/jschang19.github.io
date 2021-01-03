@@ -23,31 +23,48 @@
     var CONFIG = {"hostname":"jschang19.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Be the Pebble in the pond that creates the ripples for change.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="工常張 Shawn">
-<meta property="og:url" content="http://jschang19.github.io/index.html">
+  <meta name="description" content="前陣子做了物理第二次實驗，這次老師要求將 Phyphox 的數據以 Excel 整理圖表並加入迴歸線，就來把上網搜尋的教學步驟整理到這篇，教大家怎麼把數據整理成散布圖表，並加入趨勢線。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線">
+<meta property="og:url" content="http://jschang19.github.io/posts/678/index.html">
 <meta property="og:site_name" content="工常張 Shawn">
-<meta property="og:description" content="Be the Pebble in the pond that creates the ripples for change.">
+<meta property="og:description" content="前陣子做了物理第二次實驗，這次老師要求將 Phyphox 的數據以 Excel 整理圖表並加入迴歸線，就來把上網搜尋的教學步驟整理到這篇，教大家怎麼把數據整理成散布圖表，並加入趨勢線。">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-33.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-7.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-10.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-20.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-21.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-31.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-24.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-25.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-26.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-27.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-28.png">
+<meta property="og:image" content="http://jschang19.github.io/images/pasted-30.png">
+<meta property="article:published_time" content="2021-01-03T04:51:00.000Z">
+<meta property="article:modified_time" content="2021-01-03T10:43:58.838Z">
 <meta property="article:author" content="Jun Shawn">
-<meta property="article:tag" content="iPhone, iOS, Mac, 高中生, 科技, 新課綱, 108課綱, 程式">
+<meta property="article:tag" content="Excel">
+<meta property="article:tag" content="Phyphox">
+<meta property="article:tag" content="Office">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://jschang19.github.io/images/pasted-33.png">
 
-<link rel="canonical" href="http://jschang19.github.io/">
+<link rel="canonical" href="http://jschang19.github.io/posts/678/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>工常張 Shawn</title>
+  <title>物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線 | 工常張 Shawn</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3812E8LV40"></script>
     <script data-pjax>
@@ -199,9 +216,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
@@ -217,10 +235,9 @@
       <meta itemprop="name" content="工常張 Shawn">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/678/" class="post-title-link" itemprop="url">物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -271,17 +288,45 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><img src="/images/pasted-33.png" alt="upload successful"></p>
+        <p><img src="/images/pasted-33.png" alt="upload successful"></p>
 <p>前陣子做了物理第二次實驗，這次老師要求將 Phyphox 的數據以 Excel 整理圖表並加入迴歸線，就來把上網搜尋的教學步驟整理到這篇，教大家怎麼把數據整理成散布圖表，並加入趨勢線。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/678/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<a id="more"></a>
+
+<hr>
+<h3 id="繪製-Excel-折線圖"><a href="#繪製-Excel-折線圖" class="headerlink" title="繪製 Excel 折線圖"></a>繪製 Excel 折線圖</h3><p>先把手機裡的實驗 Excel 資料傳到電腦上，可以用 Gmail 或 Google Drive 來傳送，用電腦的 Excel 開啟表格，打開來應該會像這樣：</p>
+<p><img src="/images/pasted-7.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>選取你要做成圖表的資料，按上面字母可以全選，（ x,y,z 方向擇一，看你怎麼放手機的 ）：</p>
+<pre><code>B 行是 x 方向，C 行是 y 方向，D 行是 z 方向。</code></pre>
+<p><img src="/images/pasted-10.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>在上方選單選「插入」，選擇旁邊的 xy 散布圖：</p>
+<p><img src="/images/pasted-20.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>就會跑出散布圖啦！</p>
+<p><img src="/images/pasted-21.png" alt="upload successful"></p>
+<hr>
+<h3 id="改變圖表-X-軸單位"><a href="#改變圖表-X-軸單位" class="headerlink" title="改變圖表 X 軸單位"></a>改變圖表 X 軸單位</h3><p>不過我們還需要把 x 軸的單位換成實驗數據的時間，才會是有效的資料。點選剛做的散布圖表，選擇上方的「圖表設計」&gt;「選取資料」：</p>
+<p><img src="/images/pasted-31.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>找到「 x 軸 」欄位，按右邊的選取圖示：</p>
+<p><img src="/images/pasted-24.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>拉取 A 行的時間，再按選取圖示：</p>
+<p><img src="/images/pasted-25.png" alt="upload successful"><br>&nbsp;</p>
+<p>在視窗按確認，折線圖的水平軸就變成實驗的時間摟！</p>
+<p><img src="/images/pasted-26.png" alt="upload successful"></p>
+<hr>
+<h3 id="建立迴歸直線（-趨勢線-）"><a href="#建立迴歸直線（-趨勢線-）" class="headerlink" title="建立迴歸直線（ 趨勢線 ）"></a>建立迴歸直線（ 趨勢線 ）</h3><p>最後是加上迴歸直線，判斷 label 的趨勢了，選取散布圖的任一點，右鍵選擇「 加上趨勢線 」，Excel 就會分析數據並加上趨勢線：</p>
+<p><img src="/images/pasted-27.png" alt="upload successful"><br>&nbsp;</p>
+<p>旁邊可以修改趨勢線的顏色、線條粗細：</p>
+<p><img src="/images/pasted-28.png" alt="upload successful"><br>&nbsp;</p>
+<p>最後點選標題，改下圖表的名稱，右鍵選<strong>「另存成圖片」</strong>，就能把圖表轉成圖片檔案列印啦：</p>
+<p><img src="/images/pasted-30.png" alt="upload successful"></p>
+<hr>
+<h4 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h4><p>照上面的教學即可把 Phyphox 的 Excel 數據整理成散布圖，並加上趨勢線，做成精美的圖表 😆</p>
+<p>家中沒印表機的可以上傳 ibon，到任一家 7-11 列印文件：<br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://applealmond.com/posts/74321/" title="711列印文件教學">點我看列印教學</a></p>
+
     </div>
 
     
@@ -289,195 +334,50 @@
     
     <div class = "post-footer">
       
+      
+      
     </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://jschang19.github.io/posts/58008/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logopng.png">
-      <meta itemprop="name" content="Jun Shawn">
-      <meta itemprop="description" content="Be the Pebble in the pond that creates the ripples for change.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="工常張 Shawn">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/58008/" class="post-title-link" itemprop="url">Mac 資料庫的 Update 是什麼？可以刪掉嗎？</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-              
-
-              <time title="發布時間：2020-12-27 00:21:00 / 修改時間：22:03:15" itemprop="dateCreated datePublished" datetime="2020-12-27T00:21:00+08:00">2020-12-27</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Mac%E6%95%99%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">Mac教學</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Mac%E6%95%99%E5%AD%B8/%E6%95%99%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">教學</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="文章字數">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">文章字數：</span>
-              <span>814</span>
-            </span>
-            <span class="post-meta-item" title="所需閱讀時間">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>1 分鐘</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="/images/pasted-5.png" alt="upload successful"></p>
-<p>很多 Mac 用戶在清理硬碟空間時，會發現 Library 電腦資料庫的 Upadate 吃了好多容量，這資料能不能刪除？這篇告訴你 MacOS Upadte 資料夾是什麼，以及正確的移除方式，幫你清理出儲存空間 😆</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/58008/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-    <div class = "post-footer">
-      
-    </div>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>作者： </strong>Jun Shawn
+  </li>
+  <li class="post-copyright-link">
+    <strong>文章連結：</strong>
+    <a href="http://jschang19.github.io/posts/678/" title="物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線">http://jschang19.github.io/posts/678/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版權聲明： </strong>本網站所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener external nofollow noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 許可協議。轉載請註明出處！
+  </li>
+</ul>
+</div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/Excel/" rel="tag"># Excel</a>
+              <a href="/tags/Phyphox/" rel="tag"># Phyphox</a>
+              <a href="/tags/Office/" rel="tag"># Office</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://jschang19.github.io/posts/17780/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logopng.png">
-      <meta itemprop="name" content="Jun Shawn">
-      <meta itemprop="description" content="Be the Pebble in the pond that creates the ripples for change.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="工常張 Shawn">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/17780/" class="post-title-link" itemprop="url">hello!</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="發布時間：2020-12-26 23:16:10" itemprop="dateCreated datePublished" datetime="2020-12-26T23:16:10+08:00">2020-12-26</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="文章字數">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">文章字數：</span>
-              <span>367</span>
-            </span>
-            <span class="post-meta-item" title="所需閱讀時間">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>1 分鐘</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/17780/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-    <div class = "post-footer">
-      
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/58008/" rel="prev" title="Mac 資料庫的 Update 是什麼？可以刪掉嗎？">
+      <i class="fa fa-chevron-left"></i> Mac 資料庫的 Update 是什麼？可以刪掉嗎？
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -530,6 +430,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B9%AA%E8%A3%BD-Excel-%E6%8A%98%E7%B7%9A%E5%9C%96"><span class="nav-number">1.</span> <span class="nav-text">繪製 Excel 折線圖</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E8%AE%8A%E5%9C%96%E8%A1%A8-X-%E8%BB%B8%E5%96%AE%E4%BD%8D"><span class="nav-number">2.</span> <span class="nav-text">改變圖表 X 軸單位</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E8%BF%B4%E6%AD%B8%E7%9B%B4%E7%B7%9A%EF%BC%88-%E8%B6%A8%E5%8B%A2%E7%B7%9A-%EF%BC%89"><span class="nav-number">3.</span> <span class="nav-text">建立迴歸直線（ 趨勢線 ）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%B8%BD%E7%B5%90"><span class="nav-number">3.1.</span> <span class="nav-text">總結</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

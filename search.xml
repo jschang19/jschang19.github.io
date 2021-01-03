@@ -59,4 +59,56 @@ Telegram: jschang666</code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>物理實驗的 Phyphox Excel 數據怎麼弄？教你繪製圖表與回歸直線</title>
+    <url>/posts/678/</url>
+    <content><![CDATA[<p><img src="/images/pasted-33.png" alt="upload successful"></p>
+<p>前陣子做了物理第二次實驗，這次老師要求將 Phyphox 的數據以 Excel 整理圖表並加入迴歸線，就來把上網搜尋的教學步驟整理到這篇，教大家怎麼把數據整理成散布圖表，並加入趨勢線。</p>
+<a id="more"></a>
+
+<hr>
+<h3 id="繪製-Excel-折線圖"><a href="#繪製-Excel-折線圖" class="headerlink" title="繪製 Excel 折線圖"></a>繪製 Excel 折線圖</h3><p>先把手機裡的實驗 Excel 資料傳到電腦上，可以用 Gmail 或 Google Drive 來傳送，用電腦的 Excel 開啟表格，打開來應該會像這樣：</p>
+<p><img src="/images/pasted-7.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>選取你要做成圖表的資料，按上面字母可以全選，（ x,y,z 方向擇一，看你怎麼放手機的 ）：</p>
+<pre><code>B 行是 x 方向，C 行是 y 方向，D 行是 z 方向。</code></pre>
+<p><img src="/images/pasted-10.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>在上方選單選「插入」，選擇旁邊的 xy 散布圖：</p>
+<p><img src="/images/pasted-20.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>就會跑出散布圖啦！</p>
+<p><img src="/images/pasted-21.png" alt="upload successful"></p>
+<hr>
+<h3 id="改變圖表-X-軸單位"><a href="#改變圖表-X-軸單位" class="headerlink" title="改變圖表 X 軸單位"></a>改變圖表 X 軸單位</h3><p>不過我們還需要把 x 軸的單位換成實驗數據的時間，才會是有效的資料。點選剛做的散布圖表，選擇上方的「圖表設計」&gt;「選取資料」：</p>
+<p><img src="/images/pasted-31.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>找到「 x 軸 」欄位，按右邊的選取圖示：</p>
+<p><img src="/images/pasted-24.png" alt="upload successful"></p>
+<p>&nbsp;</p>
+<p>拉取 A 行的時間，再按選取圖示：</p>
+<p><img src="/images/pasted-25.png" alt="upload successful"><br>&nbsp;</p>
+<p>在視窗按確認，折線圖的水平軸就變成實驗的時間摟！</p>
+<p><img src="/images/pasted-26.png" alt="upload successful"></p>
+<hr>
+<h3 id="建立迴歸直線（-趨勢線-）"><a href="#建立迴歸直線（-趨勢線-）" class="headerlink" title="建立迴歸直線（ 趨勢線 ）"></a>建立迴歸直線（ 趨勢線 ）</h3><p>最後是加上迴歸直線，判斷 label 的趨勢了，選取散布圖的任一點，右鍵選擇「 加上趨勢線 」，Excel 就會分析數據並加上趨勢線：</p>
+<p><img src="/images/pasted-27.png" alt="upload successful"><br>&nbsp;</p>
+<p>旁邊可以修改趨勢線的顏色、線條粗細：</p>
+<p><img src="/images/pasted-28.png" alt="upload successful"><br>&nbsp;</p>
+<p>最後點選標題，改下圖表的名稱，右鍵選<strong>「另存成圖片」</strong>，就能把圖表轉成圖片檔案列印啦：</p>
+<p><img src="/images/pasted-30.png" alt="upload successful"></p>
+<hr>
+<h4 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h4><p>照上面的教學即可把 Phyphox 的 Excel 數據整理成散布圖，並加上趨勢線，做成精美的圖表 😆</p>
+<p>家中沒印表機的可以上傳 ibon，到任一家 7-11 列印文件：<br><a href="https://applealmond.com/posts/74321/" title="711列印文件教學">點我看列印教學</a></p>
+]]></content>
+      <categories>
+        <category>Office 教學</category>
+        <category>Excel</category>
+      </categories>
+      <tags>
+        <tag>Excel</tag>
+        <tag>Phyphox</tag>
+        <tag>Office</tag>
+      </tags>
+  </entry>
 </search>
