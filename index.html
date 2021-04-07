@@ -1,144 +1,211 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWQQHS1F5B"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QWQQHS1F5B');
-    </script>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jun Shawn - 科技編輯 / 高中生 / Coder</title>
+    <title>jschang19</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/62253076?v=4" type="image/png"></head>
+
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
-    <div id="magnify">
-        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
-        <div id="img_here"></div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/62253076?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Jun Shawn</span><a href="https://github.com/jschang19">@jschang19</a></div>
+      <div id="userbio" style="display: block;">Senior High student, and the Instagram Editor @applealmond.com .
+
+Learning Python and digital marketing recently, love Latte without sugar.</div>
+      <div id="about">
+                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; Applealmond</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="jschang19.github.io/">jschang19.github.io/</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Taiwan</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/null" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/null" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/null/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@null/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
     </div>
-    <div id="gotop"><i class="fas fa-angle-up"></i></div>  
-    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-        <table>
-            <tr>
-                <td id="logo">Jun Shawn</td>
-                <td id="navigation">
-                    <a href="#work">Protfolio</a>
-                    <a href="#bio">About</a>
-                    <a href="#skill">Skill</a>
-                    <a href="#contact">Contact</a>
-                </td>
-            </tr>
-        </table>
-    </header>
-    <table id="top_part">
-        <tr>
-            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>Welcome,<br><span class="type">Tech Your Time.</span></h1>
-                <p id = "description">
-                    Student / Tech Editor / Coder
-                </p>
-                <button onclick="window.location = 'mailto:kcshawn19@gmail.com'" class="btn_one">與我聯繫</button><br>
-                <table>
-                    <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/changshawn19"><i class="fab fa-facebook"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href= "https://www.instagram.com/jschang.tech/"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a id="social_apple" href= "https://applealmond.com/"><i class="fab fa-apple"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href= "https://www.medium.com/jun-shawn"><i class="fab fa-medium"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a id="social_twitter" href="https://twitter.com/junshawn_"><i class="fab fa-twitter"></i></a></td>
-                    </tr>
-                </table>
-            </td>
-            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
-        </tr>
-    </table>
-    <div id="work">
-        <h1>Protfolio</h1>
-        <p class="pf_content">
-            ddd
-        </p>
-        <p class="pf_content">
-            ggg
-        </p>
-    </div>
-    <div id="bio">
-        <h1>About</h1>
-        <h2>關於 Jun Shawn</h2>
-        <h3>經歷</h3>
-        <ul class="about_ul"> 
-            <li>科技媒體《 <a href="https://applealmond.com/" target= "_blank" >蘋果仁</a> 》 IG 編輯</li>
-            <li style="margin: 15px 0;">自媒體《 <a href="https://applealmond.com/" target= "_blank" >工常張Shawn</a> 》經營者</li>
-            <li>臉書社團 《 <a href="https://applealmond.com/" target= "_blank" >我們都是蘋果人</a> 》版主 <p>（ 現有 20 萬名成員 ）</p></li>
-        </ul>
-        <hr width=25% align="left" +size=3 color=#2a2a2d style="border:1 dashed #2a2a2d">
-        <p class = "bio_content">
-            Hi 我是 Shawn，是澎湖馬公高中的高二學生，也是個蘋果用戶
-        </p>
-        <p class = "bio_content">   
-            高一時發現自己喜歡寫作，加上對科技、3C 有興趣，開始成為部落客，撰寫蘋果產品的教學，與學生新課綱資訊，偶爾練練 Coding。
-        </p>
-       <p class = "bio_content" > 
-        目前在知名科技媒體 《蘋果仁》 擔任社群編輯，也經營個人部落格《工常張 Shawn》，擁有一年多的網路寫作經驗，瞭解 SEO 技術、3C 知識，並具備程式開發能力，本站最高有單月 78000 次不重複瀏覽量。
-        </p>
-    </div>
-    <div id ="skill">
-        <h1>Skill</h1>
-    </div>
-    <div id="contact">
-        <h1>Contact</h1>
-            <table>
-                <tr>
-                    <td>
-                        <div id="inner_div">
-                            <table id="inner_table">
-                                <tr>
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; kcshawn19@gmail.com</td>
-                                </tr>
-                                 <tr>
-                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="social"><i class="fab fa-facebook"></i></a>
-                                        <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a id="social_apple"><i class="fab fa-apple"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
-                                        <a class="social"><i class="fab fa-twitter"></i></a>
-                                    </td>
-                                </tr>
-                            </table>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/jschang19/Python-Score-Calculation" target="_blank">
+                        <section>
+                            <div class="section_title">Python-Score-Calculation</div>
+                            <div class="about_section">
+                            <span style="display:block;">馬公高中張君祥資訊學習歷程檔案，以 Python 設計一個能列出中位數、標準差等一為數據資料的程式。</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jschang19/jschang19.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">jschang19.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jschang19/blog" target="_blank">
+                        <section>
+                            <div class="section_title">blog</div>
+                            <div class="about_section">
+                            <span style="display:block;">for blog</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jschang19/kcshawn" target="_blank">
+                        <section>
+                            <div class="section_title">kcshawn</div>
+                            <div class="about_section">
+                            <span style="display:block;">Blog site</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jschang19/MKSH_lunch_LINEbot" target="_blank">
+                        <section>
+                            <div class="section_title">MKSH_lunch_LINEbot</div>
+                            <div class="about_section">
+                            <span style="display:block;">A LINE bot whose data is synced with google sheet.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jschang19/jschang19" target="_blank">
+                        <section>
+                            <div class="section_title">jschang19</div>
+                            <div class="about_section">
+                            <span style="display:block;">Config files for my GitHub profile.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://www.applealmond.com" target="_blank">
+                        <section>
+                            <div class="section_title">jschang19</div>
+                            <div class="about_section">
+                            <span style="display:block;">personal things.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         </div>
-                    </td>
-                    <td>
-                        <form>
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
-                        </form> 
-                    </td>
-                </tr>
-            </table>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        This website is owned by jschang19<p>
+        <a href="https://github.com/imfunniee" target="_blank">Using Templates from imfunniee</a>
+      </div>
     </div>
-    <div id="footer">
-        &#60; Jun Shawn's Personal website. / &#62; <br>
-        TEMPLET BY <a href="https://imfunniee.github.io">imfunniee</a>
-    </div>
-    <script src="index.js" type="text/javascript"></script>
-    <!-- This is Jun Shawn,s personal web page, useing the templet from imfuniee. -->
-</body>
-</html>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
