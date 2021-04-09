@@ -3,16 +3,16 @@
   "username": "jschang19",
   "name": "Jun Shawn",
   "userimg": "https://avatars.githubusercontent.com/u/62253076?v=4",
-  "sort": "updated",
-  "order": "asc",
-  "includeFork": true,
+  "sort": "pushed",
+  "order": "desc",
+  "includeFork": false,
   "theme": "dark.css",
   "types": [
    "owner"
   ],
   "twitter": null,
-  "linkedin": null,
-  "medium": null,
+  "linkedin": "kcshawn",
+  "medium": "kcshawn",
   "dribbble": null
  }
 ]
