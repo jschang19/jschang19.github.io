@@ -158,16 +158,19 @@ a {
 
 #blog-display h2 {
   color: var(--blog-gray-color);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 #blog-display {
   padding: 1vh 0px;
   font-family: "Questrial", sans-serif;
+  line-height: 30px;
 }
 
 #blog p {
   font-size: 17px;
-  line-height: 25px;
+  line-height: 30px;
   word-spacing: 1.2px;
   margin: 5vh 0px;
 }
@@ -532,7 +535,8 @@ a {
   }
 
   #blog p {
-    margin: 2vh 0px;
+    margin: 7vh 0px;
+    line-height: 30px;
   }
 }
 
